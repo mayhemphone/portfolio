@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	flex-direction: column;
+background-color: #333;
+margin: 0;
+padding: 0;
+e
+}
+
+main {
+	border:1px solid orange;
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	justify-content: flex-start;
+
+}
+footer {
+	border:1px solid green;
+	display: block;
+	width: 100vw;
+	height: 10vh;
+}
+
+/*content types*/
+
+.blurb {
+
+}
+
+.project {
+
+}
+.demo{
+
+}
+.description{
+
+}
