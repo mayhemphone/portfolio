@@ -1,17 +1,3 @@
-.blurb {
-
-}
-
-.project {
-
-}
-.demo{
-
-}
-.description{
-
-}
-
 .pane {
 	/*border:1px solid green;*/
 	min-height:90vh;
@@ -21,11 +7,10 @@
 }
 
 .angle {
-	/*background-color: grey;*/
-
 	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+	-webkit-background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 	color: white;
 }
 
@@ -38,8 +23,9 @@
 
 nav {
 	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
-	/*-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 70%, 0% 100%);*/
+	-webkit-background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+	/*clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
+	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);*/
 	box-shadow: none;
 }
 h1,h2,h3,h4,h5,h6,p {
@@ -52,11 +38,10 @@ h1{
 }
 .gradientFill{
 	background: -webkit-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .fixedRight{
-	/*border:1px solid red;*/
 	max-width: 10em;
 	position: fixed;
 	right:2em;
@@ -64,12 +49,12 @@ h1{
 }
 .card-tech{
 	font-style: italic;;
-
 }
 .card-content{
 	margin-top:-30px;
 	background-color: #333;
   	clip-path: polygon(0 0%, 100% 10%, 100% 100%, 0% 100%);
+  	-webkit-clip-path: polygon(0 0%, 100% 10%, 100% 100%, 0% 100%);
   	color:white;
   	min-height: 15em;
 }
@@ -87,7 +72,6 @@ h1{
 .skill-icon:hover{
   -webkit-filter: none;
   filter: none;
-
 }
 
 .hundo {
@@ -115,15 +99,6 @@ footer a {
 	margin-top: 3em;
 }
 
-
-footer i {
-	margin-right: .2em;
-}
-
-footer li{
-	display:  inline;
-	margin:.5em;
-}
 .contact-icon {
 	height: 1em;
 }
